@@ -1,62 +1,74 @@
 <div align="center">
+  <img src="assets/seedvr_logo.png" alt="SeedVR" width="400"/>
+</div>
 
-<h2>
-    SeedVR:<br> 
-    Seeding Infinity in Diffusion Transformer Towards Generic Video Restoration
-</h2>
+<div align="center">
+
+<h1>
+    SeedVR2:<br> 
+    One-Step Video Restoration via Diffusion Adversarial Post-Training
+</h1>
 
 <div>
     <a href='https://iceclear.github.io' target='_blank'>Jianyi Wang<sup>1,2</sup></a>&emsp;
-    <a href='https://scholar.google.com/citations?user=xXMj6_EAAAAJ&hl=zh-CN' target='_blank'>Zhijie Lin<sup>2</sup></a>&emsp;
+    <a href='https://scholar.google.com/citations?user=EDWUw7gAAAAJ&hl=en' target='_blank'>Shanchuan Lin<sup>2</sup></a>&emsp;
+    <a href='https://scholar.google.com/citations?user=xXMj6_EAAAAJ&hl=en' target='_blank'>Zhijie Lin<sup>2</sup></a>&emsp;
+    <a href='https://scholar.google.com.hk/citations?user=C_6JH-IAAAAJ&hl=en' target='_blank'>Yuxi Ren<sup>2</sup></a>&emsp;
     <a href='https://openreview.net/profile?id=~Meng_Wei11' target='_blank'>Meng Wei<sup>2</sup></a>&emsp;
+    <a href='https://zsyoaoa.github.io/' target='_blank'>Zongsheng Yue<sup>2</sup></a>&emsp;
+    <a href='https://shangchenzhou.com/' target='_blank'>Shangchen Zhou<sup>2</sup></a>&emsp;
+    <a href='https://haochen-rye.github.io/' target='_blank'>Chen Hao<sup>2</sup></a>&emsp; <br> 
     <a href='https://scholar.google.com/citations?user=uPmTOHAAAAAJ&hl=zh-CN' target='_blank'>Yang Zhao<sup>2</sup></a>&emsp;
     <a href='https://ceyuan.me/' target='_blank'>Ceyuan Yang<sup>2</sup></a>&emsp;
-    <a href='https://openreview.net/profile?id=~Fei_xiao8' target='_blank'>Fei Xiao<sup>2</sup></a>&emsp;
+    <a href='https://scholar.google.com/citations?user=CVkM9TQAAAAJ&hl=en' target='_blank'>Xuefeng Xiao<sup>2</sup></a>&emsp;
     <a href='https://www.mmlab-ntu.com/person/ccloy/' target='_blank'>Chen Change Loy<sup>1</sup></a>&emsp;
     <a href='http://www.lujiang.info/' target='_blank'>Lu Jiang<sup>2</sup></a>
 </div>
 <div>
     <sup>1</sup>S-Lab, Nanyang Technological University&emsp;
-    <sup>2</sup>ByteDance
-</div>
-
-<div>
-    <strong>CVPR 2025</strong>
+    <sup>2</sup>ByteDance Seed
 </div>
 
 <div>
     <h4 align="center">
-        <a href="https://iceclear.github.io/projects/seedvr/" target='_blank'>
+        <a href="https://iceclear.github.io/projects/seedvr2/" target='_blank'>
         <img src="https://img.shields.io/badge/🐳-Project%20Page-blue">
         </a>
         <a href="https://arxiv.org/abs/2501.01320" target='_blank'>
         <img src="https://img.shields.io/badge/arXiv-2501.01320-b31b1b.svg">
         </a>
-        <img src="https://visitor-badge.laobi.icu/badge?page_id=IceClear/SeedVR">
+        <img src="https://visitor-badge.laobi.icu/badge?page_id=IceClear/SeedVR2">
     </h4>
 </div>
 
-<strong>SeedVR is a large diffusion-transformer model that is capable of restoring videos with any resolutions, <br> w/o relying on any additional diffusion prior.</strong>
+<strong>SeedVR2 is a one-step large diffusion-transformer model that is capable of restoring videos with any resolution in a single step, <br> w/o relying on any additional diffusion prior.</strong>
 
 <div style="width: 100%; text-align: center; margin:auto;">
-    <img style="width:100%" src="assets/SeedVR-teaser.jpg">
+    <img style="width:100%" src="assets/teaser.png">
 </div>
 
 ---
 </div>
 
 ## 🔥 Update
-- [2025.03] Repo created. The open-source process depends on the company policy and we will keep updating the news in this page.
+- [2025.06] Repo created. The open-source process is under review and we will keep updating the news in this page.
 
 ---
 
-> **Why SeedVR:** *Conventional restoration models achieve inferior performance on both real-world and AIGC video restoration due to limited generation ability. Recent diffusion-based models improve the performance by introducing diffusion prior via ControlNet-like or adaptor-like architectures. Though gaining improvement, these methods generally suffer from constraints brought by the diffusion prior: these models suffer from the same bias as the prior, e.g., limited generation ability on small texts and faces, etc, and only work on fixed resolutions such as 512 or 1024. As a result, most of the existing diffusion-based restoration models rely on patch-based sampling, i.e., dividing the input video into overlapping spatial-temporal patches and fusing these patches using a Gaussian kernel at each diffusion step. The large overlap (e.g., 50\% of the patch size), required for ensuring a coherent output without visible patch boundaries, often leads to considerably slow inference speed. This inefficiency becomes even more pronounced when processing long videos at high resolutions. SeedVR follows SOTA video generation training pipelines to tackle the key challenge in diffusion-based restoration, i.e., by enabling arbitrary-resolution restoration w/o relying on any pretrained diffusion prior and introducing advanced video generation technologies suitable for video restoration. Serving as the largest-ever diffusion transformer model towards generic video restoration, we hope SeedVR could push the frontiers of advanced VR and inspire future research in developing large vision models for real-world video restoration.* 
+> **SeedVR2:** *Recent advances in diffusion-based video restoration (VR) demonstrate significant improvement in visual quality, yet yield a prohibitive computational cost during inference. While several distillation-based approaches have exhibited the potential of one-step image restoration, extending existing approaches to VR remains challenging and underexplored, particularly when dealing with high-resolution video in real-world settings. In this work, we propose a one-step diffusion-based VR model, termed as SeedVR2, which performs adversarial VR training against real data. To handle the challenging high-resolution VR within a single step, we introduce several enhancements to both model architecture and training procedures. Specifically, an adaptive window attention mechanism is proposed, where the window size is dynamically adjusted to fit the output resolutions, avoiding window inconsistency observed under high-resolution VR using window attention with a predefined window size. To stabilize and improve the adversarial post-training towards VR, we further verify the effectiveness of a series of losses, including a proposed feature matching loss without significantly sacrificing training efficiency. Extensive experiments show that SeedVR2 can achieve comparable or even better performance compared with existing VR approaches in a single step.* 
 
 ## 📑 Citation
 
    If you find our repo useful for your research, please consider citing our paper:
 
    ```bibtex
+   @inproceedings{wang2025seedvr2,
+      title={SeedVR2: One-Step Video Restoration via Diffusion Adversarial Post-Training},
+      author={Wang, Jianyi and Lin, Shanchuan and Lin, Zhijie and Ren, Yuxi and Wei, Meng and Yue, Zongsheng and Zhou, Shangchen and Chen, Hao and Zhao, Yang and Yang, Ceyuan and Xiao, Xuefeng and Loy, Chen Change and Jiang, Lu},
+      booktitle={},
+      year={2025}
+   }
+
    @inproceedings{wang2025seedvr,
       title={SeedVR: Seeding Infinity in Diffusion Transformer Towards Generic Video Restoration},
       author={Wang, Jianyi and Lin, Zhijie and Wei, Meng and Zhao, Yang and Yang, Ceyuan and Loy, Chen Change and Jiang, Lu},
