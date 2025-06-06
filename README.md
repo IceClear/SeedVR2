@@ -47,7 +47,7 @@
     </h4>
 </div>
 
-<strong>SeedVR2 is a one-step large diffusion-transformer model that is capable of restoring videos with any resolution in a single step, <br> w/o relying on any additional diffusion prior.</strong>
+<strong>SeedVR2 is a one-step large diffusion-transformer model that is capable of restoring videos with any resolution in a single step, w/o relying on any additional diffusion prior.</strong>
 
 <div style="width: 100%; text-align: center; margin:auto;">
     <img style="width:100%" src="assets/teaser.png">
