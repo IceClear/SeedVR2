@@ -34,8 +34,14 @@
         <a href="https://iceclear.github.io/projects/seedvr2/" target='_blank'>
         <img src="https://img.shields.io/badge/🐳-Project%20Page-blue">
         </a>
-        <a href="https://arxiv.org/abs/2501.01320" target='_blank'>
-        <img src="https://img.shields.io/badge/arXiv-2501.01320-b31b1b.svg">
+        <a href="http://arxiv.org/abs/2506.05301" target='_blank'>
+        <img src="https://img.shields.io/badge/arXiv-2506.05301-b31b1b.svg">
+        </a>
+        <a href="https://www.youtube.com/watch?v=tM8J-WhuAH0" target='_blank'>
+        <img 
+            src="https://img.shields.io/badge/Demo%20Video-%23FF0000.svg?logo=YouTube&logoColor=white"
+            alt="SeedVR2 Video Demo on YouTube"
+        />
         </a>
         <img src="https://visitor-badge.laobi.icu/badge?page_id=IceClear/SeedVR2">
     </h4>
@@ -62,10 +68,10 @@
    If you find our repo useful for your research, please consider citing our paper:
 
    ```bibtex
-   @inproceedings{wang2025seedvr2,
+   @article{wang2025seedvr2,
       title={SeedVR2: One-Step Video Restoration via Diffusion Adversarial Post-Training},
       author={Wang, Jianyi and Lin, Shanchuan and Lin, Zhijie and Ren, Yuxi and Wei, Meng and Yue, Zongsheng and Zhou, Shangchen and Chen, Hao and Zhao, Yang and Yang, Ceyuan and Xiao, Xuefeng and Loy, Chen Change and Jiang, Lu},
-      booktitle={},
+      booktitle={arXiv preprint arXiv:2506.05301},
       year={2025}
    }
 
