@@ -17,7 +17,7 @@
     <a href='https://openreview.net/profile?id=~Meng_Wei11' target='_blank'>Meng Wei<sup>2</sup></a>&emsp;
     <a href='https://zsyoaoa.github.io/' target='_blank'>Zongsheng Yue<sup>1</sup></a>&emsp;
     <a href='https://shangchenzhou.com/' target='_blank'>Shangchen Zhou<sup>1</sup></a>&emsp;
-    <a href='https://haochen-rye.github.io/' target='_blank'>Chen Hao<sup>2</sup></a>&emsp;
+    <a href='https://haochen-rye.github.io/' target='_blank'>Hao Chen<sup>2</sup></a>&emsp;
     <a href='https://scholar.google.com/citations?user=uPmTOHAAAAAJ&hl=zh-CN' target='_blank'>Yang Zhao<sup>2</sup></a>&emsp;
     <a href='https://ceyuan.me/' target='_blank'>Ceyuan Yang<sup>2</sup></a>&emsp;
     <a href='https://scholar.google.com/citations?user=CVkM9TQAAAAJ&hl=en' target='_blank'>Xuefeng Xiao<sup>2</sup></a>&emsp;
