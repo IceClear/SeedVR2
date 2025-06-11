@@ -99,7 +99,7 @@
 
 ## 📝 License
 
-This project is under the copyright of [ByteDance Pte Ltd](https://www.bytedance.com/en/). Redistribution and use should get the permission from [ByteDance Pte Ltd](https://www.bytedance.com/en/).
+This project is under the copyright of [ByteDance Seed](https://github.com/ByteDance-Seed). Redistribution and use should get permission from [ByteDance Seed](https://github.com/ByteDance-Seed).
 
 
 ## 📧 Contact
