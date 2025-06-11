@@ -43,7 +43,7 @@
               alt="SeedVR2 Codebase"
             />
         </a>
-        <a href="https://huggingface.co/ByteDance-Seed/SeedVR-Models">
+        <a href="https://huggingface.co/models?other=seedvr">
           <img 
               src="https://img.shields.io/badge/SeedVR2-Models-yellow?logo=huggingface&logoColor=yellow" 
               alt="SeedVR2 Models"
