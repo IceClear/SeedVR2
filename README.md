@@ -69,7 +69,7 @@
 </div>
 
 ## 🔥 Update
-- [2025.06] 🔥🔥🔥 [Inference code](https://github.com/ByteDance-Seed/SeedVR/tree/main) and [model weights](https://huggingface.co/ByteDance-Seed/SeedVR-Models) released!
+- [2025.06] 🔥🔥🔥 [Inference code](https://github.com/ByteDance-Seed/SeedVR/tree/main) and [model weights](https://huggingface.co/models?other=seedvr) released!
 - [2025.06] Repo created. The open-source process is under review and we will keep updating the news in this page.
 
 ---
