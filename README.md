@@ -37,6 +37,18 @@
         <a href="http://arxiv.org/abs/2506.05301" target='_blank'>
         <img src="https://img.shields.io/badge/arXiv-2506.05301-b31b1b.svg">
         </a>
+        <a href="https://github.com/ByteDance-Seed/SeedVR">
+            <img 
+              alt="Github" src="https://img.shields.io/badge/SeedVR2-Codebase-536af5?color=536af5&logo=github"
+              alt="SeedVR2 Codebase"
+            />
+        </a>
+        <a href="https://huggingface.co/ByteDance-Seed/SeedVR-Models">
+          <img 
+              src="https://img.shields.io/badge/SeedVR2-Models-yellow?logo=huggingface&logoColor=yellow" 
+              alt="SeedVR2 Models"
+          />
+        </a>
         <a href="https://www.youtube.com/watch?v=tM8J-WhuAH0" target='_blank'>
         <img 
             src="https://img.shields.io/badge/Demo%20Video-%23FF0000.svg?logo=YouTube&logoColor=white"
@@ -57,6 +69,7 @@
 </div>
 
 ## 🔥 Update
+- [2025.06] 🔥🔥🔥 [Inference code](https://github.com/ByteDance-Seed/SeedVR/tree/main) and [model weights](https://huggingface.co/ByteDance-Seed/SeedVR-Models) released!
 - [2025.06] Repo created. The open-source process is under review and we will keep updating the news in this page.
 
 ---
