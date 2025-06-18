@@ -99,7 +99,7 @@
 
 ## 📝 License
 
-This project is under the copyright of [ByteDance Seed](https://github.com/ByteDance-Seed). Redistribution and use should get permission from [ByteDance Seed](https://github.com/ByteDance-Seed).
+This project is under [Apache 2.0](https://github.com/ByteDance-Seed/SeedVR?tab=Apache-2.0-1-ov-file#readme). Redistribution and use should follow this license.
 
 
 ## 📧 Contact
