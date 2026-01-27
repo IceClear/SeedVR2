@@ -69,6 +69,14 @@
 </div>
 
 ## 🔥 Update
+- [2026.01] SeedVR2 is accepted by ICLR2026!
+- [2025.11] 🔥🔥🔥 [ComfyUI](https://github.com/numz/ComfyUI-SeedVR2_VideoUpscaler) and [Video tutorial](https://youtu.be/MBtWYXq_r60) released!
+<div align="center">
+  <a href="https://youtu.be/MBtWYXq_r60">
+    <img src="https://img.youtube.com/vi/MBtWYXq_r60/maxresdefault.jpg" width="50%" alt="SeedVR2 v2.5 Deep Dive Tutorial">
+  </a>
+</div>
+
 - [2025.06] 🔥🔥🔥 [Inference code](https://github.com/ByteDance-Seed/SeedVR/tree/main) and [model weights](https://huggingface.co/models?other=seedvr) released!
 - [2025.06] Repo created. The open-source process is under review and we will keep updating the news in this page.
 
@@ -81,11 +89,11 @@
    If you find our repo useful for your research, please consider citing our paper:
 
    ```bibtex
-   @article{wang2025seedvr2,
+   @inproceedings{wang2025seedvr2,
       title={SeedVR2: One-Step Video Restoration via Diffusion Adversarial Post-Training},
       author={Wang, Jianyi and Lin, Shanchuan and Lin, Zhijie and Ren, Yuxi and Wei, Meng and Yue, Zongsheng and Zhou, Shangchen and Chen, Hao and Zhao, Yang and Yang, Ceyuan and Xiao, Xuefeng and Loy, Chen Change and Jiang, Lu},
-      booktitle={arXiv preprint arXiv:2506.05301},
-      year={2025}
+      booktitle={ICLR},
+      year={2026}
    }
 
    @inproceedings{wang2025seedvr,
